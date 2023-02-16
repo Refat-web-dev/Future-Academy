@@ -1,0 +1,263 @@
+@media only screen and(max-width:1215px) {
+    .container {
+        width: 1000px;
+    }
+
+    .header_center {
+        gap: 20px;
+    }
+
+    .header_right {
+        gap: 20px;
+    }
+
+    .links {
+        padding: 0 50px 0 0px !important;
+        gap: 95px !important;
+    }
+}
+
+@media only screen and(max-width:1020px) {
+    .container {
+        width: 900px;
+    }
+
+    .header_center {
+        gap: 20px;
+    }
+
+    .header_right {
+        gap: 20px;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .links {
+        padding: 0 20px 0 0px !important;
+        gap: 60px !important;
+    }
+}
+
+@media only screen and(max-width:920px) {
+    .container {
+        width: 800px;
+    }
+
+    .links {
+        padding: 0 20px 0 0px !important;
+        gap: 40px !important;
+    }
+
+    .row {
+        p {
+            &:first-child {
+                font-size: 15px;
+            }
+
+            &:last-child {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .item {
+        h2 {
+            font-size: 15px !important;
+        }
+    }
+
+    .main_top {
+        h1 {
+            font-size: 30px;
+        }
+    }
+}
+
+@media only screen and(max-width:830px) {
+    .container {
+        width: 600px;
+    }
+
+    .links {
+        padding: 0 0px 0 0px !important;
+        gap: 20px !important;
+    }
+
+
+    .main_top {
+        h1 {
+            font-size: 24px;
+        }
+    }
+
+    .none1 {
+        display: none !important;
+    }
+
+    .right_wrapper {
+        gap: 10px;
+    }
+
+    .right_row {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and(max-width:625px) {
+    .container {
+        width: 500px;
+    }
+
+    .links {
+        justify-content: center !important;
+        gap: 36px !important;
+    }
+
+    .wrapper {
+        img {
+            width: 46px;
+            height: 46px;
+        }
+
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .links a:first-child {
+        .row {
+            p {
+                padding-right: 12px;
+            }
+        }
+    }
+
+    .right_row {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .content_left {
+        display: none;
+    }
+
+    .header_center {
+        display: none;
+    }
+
+    body {
+        background: #fff;
+    }
+
+    .main_top {
+        margin: 20px 0 30px;
+    }
+
+    header {
+        padding: 14px 0 23px;
+    }
+
+    .header {
+        align-items: center;
+    }
+
+    .header_right {
+        display: none;
+    }
+
+    .right_start {
+        h3 {
+            display: none;
+        }
+    }
+
+    .header_right_2 {
+        display: block;
+    }
+
+    .right_wrapper p {
+        overflow: visible;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 10px;
+
+        &::after {
+            display: none;
+        }
+
+        &::before {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: -1;
+            left: 0px;
+            top: 0px;
+            transform: scale(1.1);
+            background: linear-gradient(90deg, #F7941D 0%, #27AAE1 100%);
+            opacity: 0;
+            filter: blur(5px);
+            border-radius: 10px;
+            transition: .3s linear;
+        }
+
+        &:hover{
+            &::before {
+                opacity: .3;
+            }
+            box-shadow:none  ;
+        }
+    }
+    .filter{
+        display: block;
+        margin-bottom: 13px;
+    }
+    body {
+        padding-top: 80px;
+    }
+    
+}
+
+@media only screen and(max-width:520px) {
+    .container {
+        width: 320px;
+    }
+
+    .right_start p {
+        font-size: 12px;
+    }
+
+    .main_top {
+        margin: 0px 0 26px;
+
+        h1 {
+            font-size: 18px;
+        }
+    }
+
+    .right_wrapper a:nth-child(6) {
+        order: 1;
+    }
+
+    .mini_row {
+        gap: 13px !important;
+
+        h2 {
+            font-size: 14px !important;
+        }
+    }
+
+    .item {
+        p {
+            &:nth-child(3) {
+                margin-bottom: 18px;
+            }
+        }
+    }
+
+    .right_start {
+        margin-bottom: 30px;
+    }
+    
+
+}
